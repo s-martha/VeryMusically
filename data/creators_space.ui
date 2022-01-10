@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1308</width>
+    <height>870</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pb_play">
+       <property name="text">
+        <string>play</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pb_pause">
+       <property name="text">
+        <string>pause</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pb_stop">
+       <property name="text">
+        <string>stop</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pb_save">
+       <property name="text">
+        <string>сохранить как mp3</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pb_open">
+       <property name="text">
+        <string>открыть</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>1271</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="5" column="5">
+      <widget class="QPushButton" name="st_045">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="3" column="5">
+      <widget class="QPushButton" name="st_029">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QPushButton" name="st_051">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QPushButton" name="st_012">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="6" column="5">
+      <widget class="QPushButton" name="st_053">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="st_032">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="st_016">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="9" column="6">
+      <widget class="QPushButton" name="st_078">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="10" column="7">
+      <widget class="QPushButton" name="st_087">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="14" column="3">
+      <widget class="QPushButton" name="st_115">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="14" column="0">
+      <widget class="QPushButton" name="st_112">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QPushButton" name="st_074">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="6" column="6">
+      <widget class="QPushButton" name="st_054">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="12" column="4">
+      <widget class="QPushButton" name="st_100">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QPushButton" name="st_036">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="12" column="2">
+      <widget class="QPushButton" name="st_098">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="st_017">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QPushButton" name="st_089">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="14" column="7">
+      <widget class="QPushButton" name="st_119">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <widget class="QPushButton" name="st_088">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="11" column="4">
+      <widget class="QPushButton" name="st_092">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="9" column="3">
+      <widget class="QPushButton" name="st_075">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="13" column="6">
+      <widget class="QPushButton" name="st_110">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QPushButton" name="st_035">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QPushButton" name="st_021">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="12" column="5">
+      <widget class="QPushButton" name="st_101">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="7" column="6">
+      <widget class="QPushButton" name="st_062">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="st_002">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="4" column="7">
+      <widget class="QPushButton" name="st_039">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="st_000">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="5" column="7">
+      <widget class="QPushButton" name="st_047">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="12" column="0">
+      <widget class="QPushButton" name="st_096">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="st_010">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="QPushButton" name="st_052">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="14" column="4">
+      <widget class="QPushButton" name="st_116">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="st_026">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="8" column="6">
+      <widget class="QPushButton" name="st_070">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QPushButton" name="st_097">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="10" column="6">
+      <widget class="QPushButton" name="st_086">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="14" column="1">
+      <widget class="QPushButton" name="st_113">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="11" column="5">
+      <widget class="QPushButton" name="st_093">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="st_040">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="14" column="6">
+      <widget class="QPushButton" name="st_118">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QPushButton" name="st_020">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="st_049">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="11" column="7">
+      <widget class="QPushButton" name="st_095">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="st_050">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <widget class="QPushButton" name="st_104">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="13" column="7">
+      <widget class="QPushButton" name="st_111">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QPushButton" name="st_073">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QPushButton" name="st_064">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QPushButton" name="st_028">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="3" column="6">
+      <widget class="QPushButton" name="st_030">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="13" column="1">
+      <widget class="QPushButton" name="st_105">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="7" column="5">
+      <widget class="QPushButton" name="st_061">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="9" column="4">
+      <widget class="QPushButton" name="st_076">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QPushButton" name="st_072">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="3" column="7">
+      <widget class="QPushButton" name="st_031">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="8" column="7">
+      <widget class="QPushButton" name="st_071">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="6">
+      <widget class="QPushButton" name="st_006">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="9" column="5">
+      <widget class="QPushButton" name="st_077">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QPushButton" name="st_014">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="st_009">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="st_034">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="6" column="7">
+      <widget class="QPushButton" name="st_055">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="7" column="4">
+      <widget class="QPushButton" name="st_060">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="8" column="4">
+      <widget class="QPushButton" name="st_068">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="5" column="6">
+      <widget class="QPushButton" name="st_046">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="st_041">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QPushButton" name="st_048">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="13" column="2">
+      <widget class="QPushButton" name="st_106">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QPushButton" name="st_066">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="8" column="3">
+      <widget class="QPushButton" name="st_067">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="15" column="5">
+      <widget class="QPushButton" name="st_125">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="st_042">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="10" column="2">
+      <widget class="QPushButton" name="st_082">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="11" column="2">
+      <widget class="QPushButton" name="st_090">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QPushButton" name="st_011">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="13" column="3">
+      <widget class="QPushButton" name="st_107">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="14" column="5">
+      <widget class="QPushButton" name="st_117">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="8" column="5">
+      <widget class="QPushButton" name="st_069">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="15" column="4">
+      <widget class="QPushButton" name="st_124">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="9" column="7">
+      <widget class="QPushButton" name="st_079">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="st_025">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QPushButton" name="st_080">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="st_019">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="2" column="7">
+      <widget class="QPushButton" name="st_023">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="15" column="3">
+      <widget class="QPushButton" name="st_123">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="11" column="3">
+      <widget class="QPushButton" name="st_091">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QPushButton" name="st_013">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QPushButton" name="st_027">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QPushButton" name="st_004">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="st_003">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="st_024">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="st_033">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QPushButton" name="st_081">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPushButton" name="st_057">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="st_008">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="7">
+      <widget class="QPushButton" name="st_007">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="4" column="5">
+      <widget class="QPushButton" name="st_037">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="13" column="5">
+      <widget class="QPushButton" name="st_109">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="10" column="5">
+      <widget class="QPushButton" name="st_085">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QPushButton" name="st_005">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="12" column="6">
+      <widget class="QPushButton" name="st_102">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="st_001">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="st_058">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="10" column="4">
+      <widget class="QPushButton" name="st_084">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="14" column="2">
+      <widget class="QPushButton" name="st_114">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="15" column="2">
+      <widget class="QPushButton" name="st_122">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="12" column="3">
+      <widget class="QPushButton" name="st_099">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QPushButton" name="st_043">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="12" column="7">
+      <widget class="QPushButton" name="st_103">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QPushButton" name="st_065">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="15" column="6">
+      <widget class="QPushButton" name="st_126">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="2" column="6">
+      <widget class="QPushButton" name="st_022">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="4" column="6">
+      <widget class="QPushButton" name="st_038">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="15" column="7">
+      <widget class="QPushButton" name="st_127">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="st_056">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="7" column="3">
+      <widget class="QPushButton" name="st_059">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="10" column="3">
+      <widget class="QPushButton" name="st_083">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="13" column="4">
+      <widget class="QPushButton" name="st_108">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="1" column="7">
+      <widget class="QPushButton" name="st_015">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="15" column="0">
+      <widget class="QPushButton" name="st_120">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="15" column="1">
+      <widget class="QPushButton" name="st_121">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="11" column="6">
+      <widget class="QPushButton" name="st_094">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="7" column="7">
+      <widget class="QPushButton" name="st_063">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QPushButton" name="st_044">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="st_018">
+       <property name="text">
+        <string>-</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">tunesGroup</string>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_instruction">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>700</y>
+      <width>341</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Инструкция
+1. Настройте ноту или выберете тишину
+2.Укажите момент звучания, нажав на нужное место</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>670</y>
+      <width>231</width>
+      <height>138</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_pitch1">
+       <property name="text">
+        <string>нота (A - G)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="line_note">
+       <property name="text">
+        <string>A</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_pitch2">
+       <property name="text">
+        <string>октава (0 - 8)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="spin_octave"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pb_play_tune">
+       <property name="text">
+        <string>прослушать</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QCheckBox" name="ib_scilence">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>720</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>*тишина*</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1308</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="tunesGroup"/>
+ </buttongroups>
+</ui>
